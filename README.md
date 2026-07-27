@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2A9DF4&center=true&vCenter=true&width=600&lines=Data+Analyst+%7C+MCA+Student;Python+%7C+SQL+%7C+Power+BI+%7C+Excel;Turning+Raw+Data+into+Insights;Always+Building+Real-World+Projects"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2A9DF4&center=true&vCenter=true&width=600&lines=Data+Analyst+%7C+MCA+Student;Python+%7C+SQL+%7C+Power+BI+%7C+Streamlit;Real-Time+Dashboards+%26+Data+Pipelines;Turning+Raw+Data+into+Actionable+Insights"/>
 
 </div>
 
@@ -18,10 +18,10 @@
 
 - 🎓 Pursuing **MCA** at Invertis University (2025–2027)
 - 💼 Currently working as a **Data Analyst Intern @ GvCloud Secure**
-- 📊 Passionate about **Data Analysis, Visualization & Machine Learning**
-- 🧠 Skilled in **Python, SQL, Power BI, Excel, and the ML ecosystem**
+- 📊 Passionate about **Data Engineering, Real-Time Dashboards & Machine Learning**
+- 🧠 Skilled in **Python, SQL, Streamlit, Power BI, Excel, and Grafana**
 - ☁️ Completed internships in **Data Science, AI/ML, and Cloud Engineering**
-- 🚀 Always building real-world data & IoT projects
+- 🚀 Building production-ready web apps and streaming analytics pipelines
 - 📍 Based in Noida, India
 
 <br/>
@@ -34,25 +34,27 @@
 
 <div align="center">
 
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
 <br/>
 
-## 📈 Data Analyst Skills
+## 📈 Data Analysis & Engineering Skills
 
 | | |
 |---|---|
-| ✅ Data Cleaning & Preprocessing | ✅ Dashboard Building (Power BI & Streamlit) |
-| ✅ Exploratory Data Analysis (EDA) | ✅ Predictive Modeling & Basic ML |
-| ✅ Data Visualization (Matplotlib, Power BI, Plotly) | ✅ Prompt Engineering (LLMs) |
-| ✅ SQL Queries & Data Extraction | ✅ Cloud Deployment Basics (Streamlit Cloud, AWS) |
+| ✅ **Real-Time Dashboards:** Streamlit, Grafana, Power BI | ✅ **State & Data Streaming:** Sub-second auto-refresh, state management |
+| ✅ **Data Wrangling:** Pandas, NumPy, Data Cleaning | ✅ **Interactive Visualization:** Plotly Express, Matplotlib, Seaborn |
+| ✅ **SQL & Databases:** MySQL Workbench, Schema Design, Time-Series | ✅ **Operational Metrics:** SLA Tracking, Workforce Utilization Analytics |
+| ✅ **Cloud & Deployment:** Streamlit Community Cloud, Git, GitHub CI/CD | ✅ **Machine Learning & Modeling:** Scikit-Learn, Predictive Analytics |
 
 <br/>
 
@@ -65,7 +67,7 @@
 **🏢 Data Analyst Intern — GvCloud Secure**
 *(June 2026 – Present)*
 - Analyzing operational & financial datasets to surface business-critical trends and anomalies
-- Building automated visualization reports & interactive dashboards for executive monitoring
+- Building automated visualization reports & interactive web dashboards for executive monitoring
 - Collaborating cross-functionally to clean, preprocess, and validate data pipelines
 
 </td>
@@ -100,29 +102,31 @@
 <tr>
 <td width="50%">
 
-### 📞 Live Call Center Operations Dashboard
-An interactive real-time operational dashboard tracking call queue volume, agent workforce allocation (active vs. break), hold times, and SLA metrics.
+### 📞 Live Call Center Command Center
+An interactive, cloud-deployed real-time operational dashboard tracking live call queue volumes, agent workforce allocation (active vs. break status), hold times, and SLA compliance metrics.
 
 <a href="https://app-call-center-dashboard-v2n2cytujdx8dpj6wxzisk.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/></a>
 <a href="https://github.com/viveksainijames/streamlit-call-center-dashboard"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github"/></a>
 
-- Built sub-second auto-refresh data streams and dynamic state tracking using Streamlit & Plotly.
-- Implemented operational KPI threshold indicators (`st.metric`) and interactive data filters.
+- Engineered sub-second auto-refresh data streams and dynamic session state management using **Streamlit**.
+- Designed custom SLA KPI indicators (`st.metric`) and interactive workforce filters powered by **Plotly Express**.
+- Deployed live to **Streamlit Community Cloud** with automated GitHub CI/CD deployment pipeline.
 
-`Python` `Streamlit` `Pandas` `Plotly`
+`Python` `Streamlit` `Plotly` `Pandas` `Cloud Deployment`
 
 </td>
 <td width="50%">
 
 ### 📈 Financial Market Streaming Platform
-A high-frequency real-time financial market analytics pipeline & operational monitoring suite.
+A high-frequency real-time market data ingestion pipeline and observability platform for cryptocurrency ticks.
 
 <a href="https://github.com/viveksainijames/realtime-crypto-grafana-platform"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github"/></a>
 
-- Streams sub-second market data ticks into an indexed MySQL relational time-series database.
-- Designed dynamic Grafana dashboards as code (JSON schema) with 5-minute rolling volume aggregations.
+- Ingests sub-second tick data using Python into an indexed **MySQL** relational time-series database.
+- Designed dynamic **Grafana** operational dashboards configured as code (JSON schema) with 5-minute rolling volume aggregations.
+- Implemented automated threshold alerting rules for volatile market spikes.
 
-`Python` `MySQL` `Grafana` `Time-Series`
+`Python` `MySQL` `Grafana` `Time-Series` `SQL Schema`
 
 </td>
 </tr>
@@ -132,7 +136,7 @@ A high-frequency real-time financial market analytics pipeline & operational mon
 ### 💳 Credit Card Fraud Analysis
 Power BI dashboards paired with Python statistical analysis to detect and flag fraudulent transaction patterns.
 
-- Cleaned and preprocessed transactional data using Pandas & NumPy.
+- Cleaned and preprocessed transactional datasets using Pandas & NumPy.
 - Built executive Power BI dashboards with drill-through filters to visualize risk indicators.
 
 `Power BI` `Python` `EDA` `Data Cleaning`
@@ -178,9 +182,9 @@ Automated climate and environment control system using sensor integration and lo
 
 <br/>
 
-## 📌 What I'm Learning
+## 📌 What I'm Learning & Building Next
 
-`Advanced SQL` · `Advanced Power BI Dashboards` · `Deeper Machine Learning Projects`
+`Advanced Streamlit UI/UX` · `Apache Kafka & Apache Spark` · `Cloud SQL Databases (Aiven/Render)`
 
 <br/>
 
