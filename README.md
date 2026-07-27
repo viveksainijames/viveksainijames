@@ -49,10 +49,10 @@
 
 | | |
 |---|---|
-| ✅ Data Cleaning & Preprocessing | ✅ Dashboard Building (Power BI) |
+| ✅ Data Cleaning & Preprocessing | ✅ Dashboard Building (Power BI & Streamlit) |
 | ✅ Exploratory Data Analysis (EDA) | ✅ Predictive Modeling & Basic ML |
-| ✅ Data Visualization (Matplotlib, Power BI) | ✅ Prompt Engineering (LLMs) |
-| ✅ SQL Queries & Data Extraction | ✅ Cloud Deployment Basics (AWS) |
+| ✅ Data Visualization (Matplotlib, Power BI, Plotly) | ✅ Prompt Engineering (LLMs) |
+| ✅ SQL Queries & Data Extraction | ✅ Cloud Deployment Basics (Streamlit Cloud, AWS) |
 
 <br/>
 
@@ -98,25 +98,55 @@
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%">
+
+### 📞 Live Call Center Operations Dashboard
+An interactive real-time operational dashboard tracking call queue volume, agent workforce allocation (active vs. break), hold times, and SLA metrics.
+
+<a href="https://app-call-center-dashboard-v2n2cytujdx8dpj6wxzisk.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/></a>
+<a href="https://github.com/viveksainijames/streamlit-call-center-dashboard"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github"/></a>
+
+- Built sub-second auto-refresh data streams and dynamic state tracking using Streamlit & Plotly.
+- Implemented operational KPI threshold indicators (`st.metric`) and interactive data filters.
+
+`Python` `Streamlit` `Pandas` `Plotly`
+
+</td>
+<td width="50%">
+
+### 📈 Financial Market Streaming Platform
+A high-frequency real-time financial market analytics pipeline & operational monitoring suite.
+
+<a href="https://github.com/viveksainijames/realtime-crypto-grafana-platform"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github"/></a>
+
+- Streams sub-second market data ticks into an indexed MySQL relational time-series database.
+- Designed dynamic Grafana dashboards as code (JSON schema) with 5-minute rolling volume aggregations.
+
+`Python` `MySQL` `Grafana` `Time-Series`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ### 💳 Credit Card Fraud Analysis
-Power BI dashboards + Python statistical analysis to flag fraudulent transactions
-`Power BI` `Python` `Data Cleaning`
+Power BI dashboards paired with Python statistical analysis to detect and flag fraudulent transaction patterns.
+
+- Cleaned and preprocessed transactional data using Pandas & NumPy.
+- Built executive Power BI dashboards with drill-through filters to visualize risk indicators.
+
+`Power BI` `Python` `EDA` `Data Cleaning`
 
 </td>
-<td width="33%">
+<td width="50%">
 
 ### 🏠 Home Automation System (IoT)
-Arduino + PIR/temperature sensors for automated climate control
-`Tinkercad` `Arduino` `IoT`
+Automated climate and environment control system using sensor integration and logic control.
 
-</td>
-<td width="33%">
+- Integrated PIR and temperature sensors with Arduino controllers for automated triggering.
+- Simulated and validated hardware workflows inside Tinkercad.
 
-### 📡 ThingWorx Mashup Creation
-Real-time IoT dashboards for device health monitoring
-`ThingWorx` `IoT Cloud`
+`Tinkercad` `Arduino` `IoT` `Hardware Logic`
 
 </td>
 </tr>
